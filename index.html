@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="overflow-x-hidden" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature's platter</title>
+    <link rel="shortcut icon" href="assets/Group.png" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="bg-gradient-to-b from-white via-[#ffebe5] to-[#ebd8d1] mb-20"
+    >
+      <div id="nav" class="justify-between p-4 mx-[5vw] hidden md:flex">
+        <img
+          class="size-[8%]"
+          src="assets/logo-green.png"
+          alt="Nature's platter"
+        />
+        <ul class="flex [&>li]:ml-4">
+          <li>Product</li>
+          <li>Service</li>
+          <li>Contact us</li>
+        </ul>
+
+        <div class="[&>i]:mr-4 [&>button]:mr-1">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button
+            type="button"
+            title="Login"
+            class="border-1 rounded-md border-green-500 px-4 transition-all duration-400 hover:bg-[#9ee991]"
+          >
+            Login
+          </button>
+          <button
+            type="button"
+            title="Register"
+            class="px-4 rounded-md bg-[#46b72f] transition-all duration-400 hover:bg-[#299715]"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+      <div class="flex justify-between items-center p-4 mx-[5vw] md:hidden">
+        <img src="assets/Group.png" alt="logo" class="size-14" />
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </div>
+      <div id="headerbod" class="text-center mt-[9%] mx-[5vw]">
+        <p class="font-bold text-[1.5rem] md:text-[2.5rem]">
+          Freshness
+          <span class="text-green-500"
+            >You Can <br />
+            Count</span
+          >
+          On, Prices You'll Love!
+        </p>
+        <p class="p-3 max-w-2xl mx-auto text-gray-600">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry staples, we've got you covered every day!
+        </p>
+        <img
+          src="assets/hero-img.png"
+          class="w-[50%] h-[40%] mx-auto"
+          alt="image"
+        />
+      </div>
+    </header>
+    <main>
+      <div
+        id="containter"
+        class="p-10 grid grid-cols-1 md:grid-cols-3 gap-12 mx-[5vw] mb-20"
+      >
+        <h1 class="font-bold text-2xl text-green-500 col-span-full">
+          Services
+        </h1>
+        <div
+          class="box bg-[#ebd8d1] text-center p-4 w-full md:w-[22vw] rounded-lg [&>*]:p-1"
+        >
+          <img class="mx-auto" src="assets/support.png" alt="Support" />
+          <p class="font-bold mx-auto">24/7 Services</p>
+          <p class="text-gray-600">
+            We offer round-the-clock services to ensure that our customers can
+            reach us anytime, day or night.
+          </p>
+        </div>
+
+        <div
+          class="box bg-[#ebd8d1] text-center p-4 w-full rounded-lg [&>*]:p-1 mx-auto md:w-[22vw]"
+        >
+          <img
+            class="mx-auto"
+            src="assets/fast-delivery.png"
+            alt="fast-delivery"
+          />
+          <p class="font-bold mx-auto">Fast delivery</p>
+          <p class="text-gray-600">
+            Time matters, and we value yours. That's why we ensure
+            lightning-fast delivery of all our products
+          </p>
+        </div>
+
+        <div
+          class="box bg-[#ebd8d1] text-center p-4 w-full rounded-lg [&>*]:p-1 mx-auto md:w-[22vw]"
+        >
+          <img class="mx-auto" src="assets/healthy-100.png" alt="Support" />
+          <p class="font-bold mx-auto">Healthy Products</p>
+          <p class="text-gray-600">
+            Your health is our priority. We carefully select and provide only
+            the highest-quality, health-conscious products.
+          </p>
+        </div>
+      </div>
+      <div
+        id="secandcontainer"
+        class="bg-[#ebd8d1] p-10 grid gri-col-1 md:grid-cols-4 gap-5 mb-20"
+      >
+        <p class="col-span-full text-green-500 font-bold text-2xl py-9">
+          Popular products
+        </p>
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-onion.png" alt="onion" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.5</span>
+            </div>
+            <p>Onion 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>39.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-potato.png" alt="potato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>5.00</span>
+            </div>
+            <p>Potato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>35.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-tomato.png" alt="tomato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.0</span>
+            </div>
+            <p>Tomato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>30.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img
+              class="m-auto"
+              src="assets/product-onion.png"
+              alt="indiagate"
+            />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.3</span>
+            </div>
+            <p>Indiagate 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>29.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-potato.png" alt="potato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>5.00</span>
+            </div>
+            <p>Potato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>35.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-tomato.png" alt="tomato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.0</span>
+            </div>
+            <p>Tomato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>30.00</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-onion.png" alt="onion" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.5</span>
+            </div>
+            <p>Onion 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>39.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-onion.png" alt="onion" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.5</span>
+            </div>
+            <p>Onion 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>39.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-potato.png" alt="potato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>5.00</span>
+            </div>
+            <p>Potato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>35.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-onion.png" alt="onion" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.5</span>
+            </div>
+            <p>Onion 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>39.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-tomato.png" alt="tomato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.0</span>
+            </div>
+            <p>Tomato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>30.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="box bg-white w-full md:w-[18vw] md:h-[15vh] flex items-center p-4 rounded-md"
+        >
+          <div id="img" class="bg-[#ebd8d1] rounded-md p-2">
+            <img class="m-auto" src="assets/product-tomato.png" alt="tomato" />
+          </div>
+          <div class="flex flex-col p-4 w-full">
+            <div>
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <span>4.0</span>
+            </div>
+            <p>Tomato 1 Kg</p>
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>30.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mx-[5vw] mb-[100%] md:mb-60">
+        <p class="font-bold text-xl text-green-500 pb-8">Arrival & Offers</p>
+
+        <div class="flex flex-col md:flex-row gap-6">
+          <div
+            class="flex justify-between bg-green-800 rounded-md text-white w-full md:w-[60%] h-full py-7 px-4"
+          >
+            <div class="[&>p,img]:p-4">
+              <img class="w-36" src="assets/dawat-logo.png" alt="dawat" />
+              <button type="button" class="bg-[#63b76d] rounded-md p-2 px-7">
+                Cook Exotic Dishes
+              </button>
+              <p class="text-xl">
+                UP to <span class="font-bold">20% OFF</span>
+              </p>
+            </div>
+            <div class="img w-60">
+              <img
+                class="p-2"
+                src="assets/product-dawat.png"
+                alt="product-dawat"
+              />
+            </div>
+          </div>
+          <div
+            class="flex justify-between bg-[#0f2c5a] rounded-md text-white w-full md:w-[40%] h-[full] pt-7 px-4"
+          >
+            <div class="[&>p,img]:p-4">
+              <img
+                class="w-20"
+                src="assets/indiagate-logo.png"
+                alt="indiagate"
+              />
+              <button type="button" class="bg-[#2662c2] rounded-md p-2 px-7">
+                Cook Exotic Dishes
+              </button>
+              <p class="text-xl">
+                UP to <span class="font-bold">20% OFF</span>
+              </p>
+            </div>
+            <div class="img w-36">
+              <img
+                class="p-2"
+                src="assets/product-indiagate.png"
+                alt="product-indiagate"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="relative">
+      <div class="bonus absolute mx-[5vw] md:bottom-[60%] bottom-[70%] md:left-[16%] gap-16 rounded-md flex flex-col md:flex-row bg-[#FFEBE5] p-12">
+        <div>
+          <img class="md:w-60 w-70" src="assets/fruit-basket.png" alt="fruit-basket">
+        </div>
+        <div class="flex flex-col md:[&>p,input,button]:pb-3 md:pt-7">
+
+          <p class="font-bold text-xl">Get Grocery News!</p>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <form action="#">
+            <label for="email">
+              <input class="bg-white w-[80%] p-2 rounded-md outline-green-500" type="email" placeholder="Enter email" name="email" id="email">
+            </label>
+            <div class="md:m-auto ml-[20%] p-3">
+              <button class="px-10 py-2 text-white font-xl rounded-md bg-[#46b72f] transition-all duration-400 hover:bg-[#299715]" title="submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+     <div class="footer bg-[#179800] text-white grid grid-rows-1 md:grid-cols-3 gap-5 p-14 pt-56">
+      <div class="foot1">
+        <img class="w-25" src="assets/logo-white.png" alt="Nature's platter">
+        <p class="md:w-[24vw] font-light">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+      </div>
+      <div class="foot2">
+        <ul class="[&>li]:mb-3">
+          <li>Product</li>
+          <li>Service</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="foot3">
+        <p class="pb-2">Follow us</p>
+        <div class="flex [&>*]:p-4">
+          <a title="profile" href="https://www.facebook.com/md.mahmudul.hasan.694602" ><img src="assets/f.png" alt="Facebook"></a>
+          <a title="profile" href="https://www.instagram.com/"><img src="assets/i.png" alt="Instagram"></a>
+          <a title="profile" href="https://www.linkedin.com/hp"><img src="assets/l.png" alt="Instagram"></a>
+          <a title="profile" href="https://www.youtube.com/"><img src="assets/y.png" alt="Instagram"></a>
+        </div>
+      </div>
+     </div>
+    </footer>
+  </body>
+</html>
